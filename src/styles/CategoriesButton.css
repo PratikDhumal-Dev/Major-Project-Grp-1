@@ -1,0 +1,406 @@
+.categoriesSection {
+  display: flex;
+}
+.categoriesButton {
+  margin: 0.5em;
+  position: relative;
+  width: 10em;
+  text-align: center;
+  align-items: center;
+}
+
+.checkbox {
+  display: none;
+}
+/* The Button */
+.ss-toggle {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox:checked + .ss-toggle {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox:checked + .ss-toggle::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 2 */
+.checkbox2 {
+  display: none;
+}
+/* The Button */
+.ss-toggle2 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox2:checked + .ss-toggle2 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox2:checked + .ss-toggle2::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 3 */
+.checkbox3 {
+  display: none;
+}
+/* The Button */
+.ss-toggle3 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox3:checked + .ss-toggle3 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox3:checked + .ss-toggle3::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 4 */
+.checkbox4 {
+  display: none;
+}
+/* The Button */
+.ss-toggle4 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle4::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox4:checked + .ss-toggle4 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox4:checked + .ss-toggle4::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 5 */
+.checkbox5 {
+  display: none;
+}
+/* The Button */
+.ss-toggle5 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle5::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox5:checked + .ss-toggle5 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox5:checked + .ss-toggle5::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 6 */
+.checkbox6 {
+  display: none;
+}
+/* The Button */
+.ss-toggle6 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle6::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox6:checked + .ss-toggle6 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox6:checked + .ss-toggle6::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 7 */
+.checkbox7 {
+  display: none;
+}
+/* The Button */
+.ss-toggle7 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+  width: 100%;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle7::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox7:checked + .ss-toggle7 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox7:checked + .ss-toggle7::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 8 */
+.checkbox8 {
+  display: none;
+}
+/* The Button */
+.ss-toggle8 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle8::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox8:checked + .ss-toggle8 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox8:checked + .ss-toggle8::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 9 */
+.checkbox9 {
+  display: none;
+}
+/* The Button */
+.ss-toggle9 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #999;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle9::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #999;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox9:checked + .ss-toggle9 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox9:checked + .ss-toggle9::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}

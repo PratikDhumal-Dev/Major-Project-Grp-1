@@ -32,7 +32,7 @@ function Login() {
       setLoading(false);
 
       toast.success("Successfully logged in");
-      navigate("/checkout");
+      navigate("/home");
     } catch (error) {
       setLoading(false);
       toast.error(error.message);

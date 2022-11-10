@@ -9,6 +9,11 @@
   color: var(--primary-color);
   font-weight: 600;
 }
+.auth__btn2 {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+}
 
 .auth__from p {
   margin-top: 30px;
@@ -25,4 +30,8 @@
   display: inline-block;
 
   border-radius: 4px;
+}
+
+.categoriesButtons {
+  display: flex;
 }

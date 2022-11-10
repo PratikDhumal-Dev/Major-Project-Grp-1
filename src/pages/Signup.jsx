@@ -9,6 +9,8 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { auth } from "./../firebase.config";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import Popup from "../components/UI/Popup";
+import CategoriesButton from "./../components/UI/CategoriesButton";
 function Signup() {
   const [email, setEmail] = useState("");
   const [username, setUserName] = useState("");
@@ -33,12 +35,18 @@ function Signup() {
 
       setLoading(false);
       toast.success("Account created");
-      navigate("/login");
     } catch (err) {
       setLoading(false);
       toast.error("something went wrong");
     }
   };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const categories = ["Animation", "Graphic Design", "VFX", "Painting"];
 
   return (
     <Helmet title="Signup">
@@ -72,9 +80,33 @@ function Signup() {
                     onChange={(e) => setPassword(e.target.value)}
                   />
                 </FormGroup>
-                <button type="submit" className="shop__btn auth__btn mb-3">
+                <button
+                  type="submit"
+                  className="shop__btn auth__btn mb-3"
+                  onClick={togglePopup}
+                >
                   Create an account
                 </button>
+                {isOpen && (
+                  <Popup
+                    content={
+                      <>
+                        <div className="categoriesButtons">
+                          <CategoriesButton />
+                        </div>
+                        <div>
+                          <Link to="/home">
+                            {" "}
+                            <button className="shop__btn auth__btn2 mb-3">
+                              Submit
+                            </button>
+                          </Link>
+                        </div>
+                      </>
+                    }
+                    handleClose={togglePopup}
+                  />
+                )}
                 <p>
                   {" "}
                   Already have an account? <Link to="/login">Login</Link>

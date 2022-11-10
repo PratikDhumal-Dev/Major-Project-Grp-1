@@ -12,6 +12,8 @@ import ProtectedRoute from "./ProtectedRoute";
 import InstructorSignup from "./../pages/InstructorSignup";
 import InstructorProfilePage from "../pages/InstructorProfilePage";
 import StudentProfilepage from "../pages/StudentProfilePage";
+import CategoriesPopup from "../components/UI/CategoriesPopup";
+import AdminPage from "../pages/AdminPage";
 
 function Routers() {
   return (
@@ -30,10 +32,13 @@ function Routers() {
         }
       />
       <Route path="login" element={<Login />} />
+
       <Route path="signup" element={<Signup />} />
       <Route path="instructorSignup" element={<InstructorSignup />} />
       <Route path="instructorProfilePage" element={<InstructorProfilePage />} />
       <Route path="studentProfilepage" element={<StudentProfilepage />} />
+      <Route path="test" element={<CategoriesPopup />} />
+      <Route path="admin" element={<AdminPage />} />
     </Routes>
   );
 }
