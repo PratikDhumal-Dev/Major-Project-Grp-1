@@ -6,7 +6,7 @@
 
 .auth__btn {
   background: #fff;
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
   font-weight: 600;
 }
 .auth__btn2 {

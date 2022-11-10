@@ -19,19 +19,7 @@ function CategoriesButton() {
           Animation
         </label>
       </div>
-      {show ? (
-        <div className="categoriesButton">
-          <input id="ss-cube-btn2" className="checkbox2" type="checkbox" />
 
-          <label
-            className="ss-toggle2 checkbox2"
-            for="ss-cube-btn2"
-            type="checkbox"
-          >
-            2D Animation
-          </label>
-        </div>
-      ) : null}
       <div className="categoriesButton">
         <input id="ss-cube-btn3" className="checkbox3" type="checkbox" />
 
@@ -109,6 +97,19 @@ function CategoriesButton() {
           Video
         </label>
       </div>
+      {show ? (
+        <div className="categoriesButton">
+          <input id="ss-cube-btn2" className="checkbox2" type="checkbox" />
+
+          <label
+            className="ss-toggle2 checkbox2"
+            for="ss-cube-btn2"
+            type="checkbox"
+          >
+            2D Animation
+          </label>
+        </div>
+      ) : null}
     </div>
   );
 }

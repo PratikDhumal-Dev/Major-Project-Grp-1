@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
-
 import Home from "../pages/Home";
 import Shop from "../pages/Shop";
 import Cart from "../pages/Cart";
@@ -14,6 +13,7 @@ import InstructorProfilePage from "../pages/InstructorProfilePage";
 import StudentProfilepage from "../pages/StudentProfilePage";
 import CategoriesPopup from "../components/UI/CategoriesPopup";
 import AdminPage from "../pages/AdminPage";
+import DemoContentPage from "./../pages/DemoContentPage";
 
 function Routers() {
   return (
@@ -32,13 +32,13 @@ function Routers() {
         }
       />
       <Route path="login" element={<Login />} />
-
       <Route path="signup" element={<Signup />} />
       <Route path="instructorSignup" element={<InstructorSignup />} />
       <Route path="instructorProfilePage" element={<InstructorProfilePage />} />
       <Route path="studentProfilepage" element={<StudentProfilepage />} />
       <Route path="test" element={<CategoriesPopup />} />
       <Route path="admin" element={<AdminPage />} />
+      <Route path="demoContentPage" element={<DemoContentPage />} />
     </Routes>
   );
 }

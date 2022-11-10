@@ -54,7 +54,9 @@ const Home = () => {
                   and scrambled it to make a type specimen book.
                 </p>
                 <motion.button whileTap={{ scale: 1.2 }} className="shop__btn">
-                  <Link to="/shop">GET COURSES</Link>
+                  <Link to="/shop" style={{ color: "white" }}>
+                    GET COURSES
+                  </Link>
                 </motion.button>
               </div>
             </Col>

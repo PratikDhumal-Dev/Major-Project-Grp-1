@@ -38,7 +38,7 @@ function ProductDetails() {
       })
     );
 
-    toast.success("Product added successfully");
+    toast.success("Course added successfully");
   };
   return (
     <Helmet>
@@ -84,7 +84,7 @@ function ProductDetails() {
                   className="shop__btn"
                   onClick={addToCart}
                 >
-                  Add to Cart
+                  Enroll Me
                 </motion.button>
               </div>
             </Col>

@@ -105,6 +105,7 @@ function Header() {
                     className="profile__actions"
                     ref={profileActionRef}
                     onClick={toggleProfileActions}
+                    style={{ borderRadius: "10px" }}
                   >
                     {currentUser ? (
                       <span onClick={logout}>Logout</span>
