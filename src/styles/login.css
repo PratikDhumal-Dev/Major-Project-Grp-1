@@ -5,13 +5,13 @@
 }
 
 .auth__btn {
-  background: #fff;
+  background: var(--primary-color);
   color: var(--primary-color) !important;
   font-weight: 600;
 }
 .auth__btn2 {
-  background: var(--primary-color);
-  color: #fff;
+  background: #fff;
+  color: var(--primary-color) !important;
   font-weight: 600;
 }
 
