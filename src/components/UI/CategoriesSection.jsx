@@ -28,7 +28,9 @@ export default function CategoriesSection() {
         <MDBModalDialog centered size="xl">
           <MDBModalContent>
             <MDBModalHeader>
-              <MDBModalTitle>Categories</MDBModalTitle>
+              <MDBModalTitle style={{ color: "black" }}>
+                Categories
+              </MDBModalTitle>
               <MDBBtn
                 className="btn-close"
                 color="none"

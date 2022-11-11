@@ -1,10 +1,15 @@
 .categoriesSection {
-  display: flex;
+  font-weight: 700;
 }
 .categoriesButton {
   margin: 0.5em;
   position: relative;
-  width: 10em;
+  font-weight: 700;
+
+  min-width: fit-content;
+  padding-left: 1em;
+  padding-right: 1em;
+
   text-align: center;
   align-items: center;
 }
@@ -18,7 +23,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -31,7 +36,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -62,7 +67,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -75,7 +80,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -106,7 +111,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -119,7 +124,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -150,7 +155,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -163,7 +168,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -194,7 +199,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -207,7 +212,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -238,7 +243,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -251,7 +256,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -283,7 +288,7 @@
   width: 100%;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -296,7 +301,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -327,7 +332,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -340,7 +345,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -371,7 +376,7 @@
   margin: 0;
 
   display: block;
-  color: #999;
+  color: #101010;
   text-transform: uppercase;
   font-size: 0.8em;
   text-align: center;
@@ -384,7 +389,7 @@
   display: block;
   width: 100%;
   height: 2em;
-  border: 3px solid #999;
+  border: 3px solid #707070;
   border-radius: 5em;
   position: absolute;
   top: 0;
@@ -401,6 +406,182 @@
   color: rgba(20, 185, 20, 1);
 }
 .checkbox9:checked + .ss-toggle9::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 10 */
+.checkbox10 {
+  display: none;
+}
+/* The Button */
+.ss-toggle10 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #101010;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle10::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #707070;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox10:checked + .ss-toggle10 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox10:checked + .ss-toggle10::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 11 */
+.checkbox11 {
+  display: none;
+}
+/* The Button */
+.ss-toggle11 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #101010;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle11::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #707070;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox11:checked + .ss-toggle11 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox11:checked + .ss-toggle11::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 12 */
+.checkbox12 {
+  display: none;
+}
+/* The Button */
+.ss-toggle12 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #101010;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle12::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #707070;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox12:checked + .ss-toggle12 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox12:checked + .ss-toggle12::after {
+  background: rgba(55, 185, 55, 0.2);
+  border: 3px solid rgba(100, 185, 100, 0.8);
+}
+
+/* Button 13 */
+.checkbox13 {
+  display: none;
+}
+/* The Button */
+.ss-toggle13 {
+  font-family: Helvetica, Arial;
+  margin: 0;
+
+  display: block;
+  color: #101010;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 2.2;
+  box-sizing: box-border;
+  text-indent: 0.5em;
+}
+.ss-toggle13::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2em;
+  border: 3px solid #707070;
+  border-radius: 5em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: box-border;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+/*state change*/
+.checkbox13:checked + .ss-toggle13 {
+  color: rgba(20, 185, 20, 1);
+}
+.checkbox13:checked + .ss-toggle13::after {
   background: rgba(55, 185, 55, 0.2);
   border: 3px solid rgba(100, 185, 100, 0.8);
 }
